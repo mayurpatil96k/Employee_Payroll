@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/index.css" />
+    <title>Employeee Payroll</title>
+  </head>
+  <body>
+    <header>
+      <div id="head">
+        <div id="logo"><img id="imagehead" src="../assets/Teaching_blue.svg" alt="loading..." /></div>
+        <div id="emp" class="emp">
+          <div id="employee">EMPLOYEE</div>
+          <div id="payroll">PAYROLL</div>
+        </div>
+      </div>
+    </header>
+<div class="main">
+  <div class="inner">
+    <div class="head">Employee Payroll Form</div>
+    <div class="name">
+      <div class="pname"><h4>Name</h4></div>
+      <div class="iname"><input type="text" name="name" id="name" /></div>
+    </div>
+    <div class="pimage">
+      <div class="pname"><h4>Profile Image</h4></div>
+      <div class="ipmage">
+        <input type="radio" name="pimage" id="pimage1" />
+        <img src="../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg" alt="loading..." />
+        <input type="radio" name="pimage" id="pimage2" />
+        <img src="../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg" alt="loading..." />
+        <input type="radio" name="pimage" id="pimage3" />
+        <img src="../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg" alt="loading..." />
+        <input type="radio" name="pimage" id="pimage4" />
+        <img src="../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg" alt="loading..." />
+      </div>
+    </div>
+    <div class="gender">
+      <div class="pname"><h4>Gender</h4></div>
+      <div class="igender">
+        <input type="radio" name="gender" id="genderm" />
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="genderf" />
+        <label for="Female">Female</label>
+      </div>
+    </div>
+    <div class="department">
+      <div class="pname"><h4>Department</h4></div>
+      <div class="idepartment">
+        <input type="checkbox" name="dept" id="HR" />
+        <label for="">HR</label>
+        <input type="checkbox" name="dept" id="Sales" />
+        <label for="Sales">Sales</label>
+        <input type="checkbox" name="dept" id="Finance" />
+        <label for="Finance">Finance</label>
+        <input type="checkbox" name="dept" id="Engineers" />
+        <label for="Engineers">Engineers</label>
+        <input type="checkbox" name="dept" id="Others" />
+        <label for="Others">Others</label>
+      </div>
+    </div>
+    <div class="salary">
+      <div class="pname"><h4>Salary</h4></div>
+      <div class="isalary">
+          <select name="sal" id="sal">
+              <option value="Select Salary">Select Salary</option>
+              <option value="50000">50000</option>
+              <option value="60000">60000</option>
+              <option value="70000">70000</option>
+              <option value="80000">80000</option>
+            </select>
+      </div>
+    </div>
+    <div class="startdate">
+      <div class="pname"><h4>Start Date</h4></div>
+      <div class="istartdate">
+          <select id="day">
+              <option value="">Day</option>
+              <option value="01">01</option>
+              <option value="02">02</option>
+              <option value="03">03</option>
+              <option value="04">04</option>
+              <option value="05">05</option>
+              <option value="06">06</option>
+              <option value="07">07</option>
+              <option value="08">08</option>
+              <option value="09">09</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+            </select>
+  
+            <select id="month">
+              <option value="">Month</option>
+              <option value="01">January</option>
+              <option value="02">February</option>
+              <option value="03">March</option>
+              <option value="04">April</option>
+              <option value="05">May</option>
+              <option value="06">June</option>
+              <option value="07">July</option>
+              <option value="08">August</option>
+              <option value="09">September</option>
+              <option value="10">October</option>
+              <option value="11">November</option>
+              <option value="12">December</option>
+            </select>
+  
+            <!-- Year Dropdown -->
+            <select id="year">
+              <option value="">Year</option>
+              <option value="2020">2020</option>
+              <option value="2021">2021</option>
+              <option value="2022">2022</option>
+              <option value="2023">2023</option>
+              <option value="2024">2024</option>
+            </select>
+      </div>
+    </div>
+    <div class="notes">
+      <div class="pname"><h4>Notes</h4></div>
+      <div class="inotes">
+          <input type="text" name="notes" id="notes" />
+      </div>
+    </div>
+    <div class="button">
+      <div class="pname">
+          <button><h2>Cancel</h2></button>
+      </div>
+      <div class="srbutton">
+          <button><h2>Submit</h2></button>
+          <button><h2>Reset</h2></button>
+      </div>
+    </div>
+  </div>
+</div>
+   
+  </body>
+</html>
