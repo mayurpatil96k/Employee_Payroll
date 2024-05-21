@@ -1,8 +1,6 @@
-console.log("Hello Worold");
-function printFormData() {
-  console.log(" in print form data");
-  var name = document.getElementById("name").value;
-  var genderElements = document.getElementsByName("gender");
+$("#submitbuton").click(function(){
+    var name = $('#name').val();
+  var genderElements = $('[name="gender"]');
   var gender;
   for (var i = 0; i < genderElements.length; i++) {
     if (genderElements[i].checked) {
@@ -10,7 +8,7 @@ function printFormData() {
       break;
     }
   }
-  var ProfileImage = document.getElementsByName("pimage");
+  var ProfileImage = $('[name="pimage"]');
   var profile;
   for (var i = 0; i < ProfileImage.length; i++) {
     if (ProfileImage[i].checked) {
@@ -18,13 +16,13 @@ function printFormData() {
       break;
     }
   }
-  var salary = document.getElementById("sal").value;
-  var day = document.getElementById("day").value;
-  var month = document.getElementById("month").value;
-  var year = document.getElementById("year").value;
+  var salary = $("#sal").val();
+  var day = $("#day").val();
+  var month = $("#month").val();
+  var year = $("#year").val();
 
-  var notes = document.getElementById("notes").value;
-  var departmentElements = document.getElementsByName('dept');
+  var notes = $("#notes").val();
+  var departmentElements = $('[name="dept"]');
   var departments = [];
   for (var i = 0; i < departmentElements.length; i++) {
       if (departmentElements[i].checked) {
@@ -50,11 +48,21 @@ console.log(formData);
 console.log(profile)
 var formDataString = JSON.stringify(formData);
 localStorage.setItem(FormData,formDataString);
-}
 
 
 
-function redirect(){
-    window.location.href = './table.html';
-}
+$.ajax({
+  url: 'http://localhost:3000/users',
+  type: 'POST',
+  data: formDataString,
+  success: function(response) {
+      alert("Form Data Submitted...");
+      window.location.href = './table.html';
+  },
+  error: function(xhr, status, error) {
+      console.error('An error occurred:', status, error);
+  }
+});
+
+})
 

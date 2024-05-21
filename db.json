@@ -1,0 +1,121 @@
+{
+  "users": [
+    {
+      "id": "19ca",
+      "name": "Mayur Patil",
+      "gender": "Male",
+      "profileImage": "../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg",
+      "salary": "50000",
+      "startDate": {
+        "day": "01",
+        "month": "01",
+        "year": "2020"
+      },
+      "notes": "mayur",
+      "departments": [
+        "HR"
+      ]
+    },
+    {
+      "id": "9b39",
+      "name": "Mayur Arun Patil",
+      "gender": "Male",
+      "profileImage": "../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg",
+      "salary": "80000",
+      "startDate": {
+        "day": "10",
+        "month": "05",
+        "year": "2020"
+      },
+      "notes": "new user testing",
+      "departments": [
+        "HR",
+        "Sales"
+      ]
+    },
+    {
+      "id": "6784",
+      "name": "Mayur",
+      "gender": "Male",
+      "profileImage": "../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg",
+      "salary": "80000",
+      "startDate": {
+        "day": "18",
+        "month": "06",
+        "year": "2022"
+      },
+      "notes": "test...",
+      "departments": [
+        "HR",
+        "Sales",
+        "Finance"
+      ]
+    },
+    {
+      "id": "c90b",
+      "name": "Rohit",
+      "gender": "Male",
+      "profileImage": "../assets/WhatsApp Image 2024-05-21 at 3.26.36 PM.jpeg",
+      "salary": "60000",
+      "startDate": {
+        "day": "18",
+        "month": "September",
+        "year": "2021"
+      },
+      "notes": "tmepass",
+      "departments": [
+        "Others"
+      ]
+    },
+    {
+      "id": "f757",
+      "name": "Niraj",
+      "gender": "Female",
+      "profileImage": "../assets/WhatsApp Image 2024-05-21 at 3.26.36 PM (1).jpeg",
+      "salary": "60000",
+      "startDate": {
+        "day": "16",
+        "month": "December",
+        "year": "2021"
+      },
+      "notes": "demo",
+      "departments": [
+        "HR",
+        "Sales",
+        "Finance",
+        "Engineers"
+      ]
+    },
+    {
+      "id": "e70d",
+      "name": "saloni",
+      "gender": "Female",
+      "salary": "80000",
+      "startDate": {
+        "day": "07",
+        "month": "July",
+        "year": "2022"
+      },
+      "notes": "deemo",
+      "departments": [
+        "Engineers"
+      ]
+    },
+    {
+      "id": "bd68",
+      "name": "kdsdf",
+      "gender": "Female",
+      "profileImage": "../assets/WhatsApp Image 2024-05-21 at 3.26.35 PM.jpeg",
+      "salary": "70000",
+      "startDate": {
+        "day": "17",
+        "month": "June",
+        "year": "2022"
+      },
+      "notes": "kaagv",
+      "departments": [
+        "Sales"
+      ]
+    }
+  ]
+}

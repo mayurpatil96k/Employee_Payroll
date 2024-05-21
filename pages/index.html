@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../style/index.css" />
@@ -30,12 +31,12 @@
       <div class="ipmage">
         <input type="radio" name="pimage" value="../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg" id="pimage1" />
         <img src="../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg" alt="loading..." />
-        <input type="radio" name="pimage" value="../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg" id="pimage2" />
-        <img src="../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg" alt="loading..." />
-        <input type="radio" name="pimage" value="../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg" id="pimage3" />
-        <img src="../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg" alt="loading..." />
-        <input type="radio" name="pimage" value="../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg" id="pimage4" />
-        <img src="../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg" alt="loading..." />
+        <input type="radio" name="pimage" value="../assets/WhatsApp Image 2024-05-21 at 3.26.35 PM.jpeg" id="pimage2" />
+        <img src="../assets/WhatsApp Image 2024-05-21 at 3.26.35 PM.jpeg" alt="loading..." />
+        <input type="radio" name="pimage" value="../assets/WhatsApp Image 2024-05-21 at 3.26.36 PM (1).jpeg" id="pimage3" />
+        <img src="../assets/WhatsApp Image 2024-05-21 at 3.26.36 PM (1).jpeg" alt="loading..." />
+        <input type="radio" name="pimage" value="../assets/WhatsApp Image 2024-05-21 at 3.26.36 PM.jpeg" id="pimage4" />
+        <img src="../assets/WhatsApp Image 2024-05-21 at 3.26.36 PM.jpeg" alt="loading..." />
       </div>
     </div>
     <div class="gender">
@@ -113,18 +114,18 @@
   
             <select id="month">
               <option value="">Month</option>
-              <option value="01">January</option>
-              <option value="02">February</option>
-              <option value="03">March</option>
-              <option value="04">April</option>
-              <option value="05">May</option>
-              <option value="06">June</option>
-              <option value="07">July</option>
-              <option value="08">August</option>
-              <option value="09">September</option>
-              <option value="10">October</option>
-              <option value="11">November</option>
-              <option value="12">December</option>
+              <option value="January">January</option>
+              <option value="February">February</option>
+              <option value="March">March</option>
+              <option value="April">April</option>
+              <option value="May">May</option>
+              <option value="June">June</option>
+              <option value="July">July</option>
+              <option value="August">August</option>
+              <option value="September">September</option>
+              <option value="Octomber">October</option>
+              <option value="November">November</option>
+              <option value="December">December</option>
             </select>
   
             <!-- Year Dropdown -->
@@ -150,7 +151,7 @@
           <button onclick="redirect()"><h2>Cancel</h2></button>
       </div>
       <div class="srbutton">
-          <button type="button" onclick="printFormData()"><h2>Submit</h2></button>
+          <button type="button" id="submitbuton"><h2>Submit</h2></button>
           <button><h2>Reset</h2></button>
       </div>
     </div>
