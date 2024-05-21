@@ -26,7 +26,7 @@
     <div class="pimage">
       <div class="pname"><h4>Profile Image</h4></div>
       <div class="ipmage">
-        <input type="radio" name="pimage" id="pimage1" />
+        <input type="radio" name="pimage" value="../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg" id="pimage1" />
         <img src="../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg" alt="loading..." />
         <input type="radio" name="pimage" id="pimage2" />
         <img src="../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg" alt="loading..." />
@@ -39,24 +39,24 @@
     <div class="gender">
       <div class="pname"><h4>Gender</h4></div>
       <div class="igender">
-        <input type="radio" name="gender" id="genderm" />
+        <input type="radio" value="Male" name="gender" id="genderm" />
         <label for="Male">Male</label>
-        <input type="radio" name="gender" id="genderf" />
+        <input type="radio" value="Female" name="gender" id="genderf" />
         <label for="Female">Female</label>
       </div>
     </div>
     <div class="department">
       <div class="pname"><h4>Department</h4></div>
       <div class="idepartment">
-        <input type="checkbox" name="dept" id="HR" />
+        <input type="checkbox" name="dept" value="HR" id="HR" />
         <label for="">HR</label>
-        <input type="checkbox" name="dept" id="Sales" />
+        <input type="checkbox" name="dept" value="Sales" id="Sales" />
         <label for="Sales">Sales</label>
-        <input type="checkbox" name="dept" id="Finance" />
+        <input type="checkbox" name="dept" value="Finance" id="Finance" />
         <label for="Finance">Finance</label>
-        <input type="checkbox" name="dept" id="Engineers" />
+        <input type="checkbox" name="dept" value="Engineers" id="Engineers" />
         <label for="Engineers">Engineers</label>
-        <input type="checkbox" name="dept" id="Others" />
+        <input type="checkbox" name="dept" value="Others" id="Others" />
         <label for="Others">Others</label>
       </div>
     </div>
@@ -147,12 +147,12 @@
           <button><h2>Cancel</h2></button>
       </div>
       <div class="srbutton">
-          <button><h2>Submit</h2></button>
+          <button type="button" onclick="printFormData()"><h2>Submit</h2></button>
           <button><h2>Reset</h2></button>
       </div>
     </div>
   </div>
 </div>
-   
+   <script src="../js/index.js"></script>
   </body>
 </html>
