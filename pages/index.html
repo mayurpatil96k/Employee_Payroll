@@ -9,10 +9,12 @@
   <body>
     <header>
       <div id="head">
+        <a href="./table.html">
         <div id="logo"><img id="imagehead" src="../assets/Teaching_blue.svg" alt="loading..." /></div>
         <div id="emp" class="emp">
           <div id="employee">EMPLOYEE</div>
           <div id="payroll">PAYROLL</div>
+        </a>
         </div>
       </div>
     </header>
@@ -28,11 +30,11 @@
       <div class="ipmage">
         <input type="radio" name="pimage" value="../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg" id="pimage1" />
         <img src="../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg" alt="loading..." />
-        <input type="radio" name="pimage" id="pimage2" />
+        <input type="radio" name="pimage" value="../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg" id="pimage2" />
         <img src="../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg" alt="loading..." />
-        <input type="radio" name="pimage" id="pimage3" />
+        <input type="radio" name="pimage" value="../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg" id="pimage3" />
         <img src="../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg" alt="loading..." />
-        <input type="radio" name="pimage" id="pimage4" />
+        <input type="radio" name="pimage" value="../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg" id="pimage4" />
         <img src="../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg" alt="loading..." />
       </div>
     </div>
@@ -139,12 +141,13 @@
     <div class="notes">
       <div class="pname"><h4>Notes</h4></div>
       <div class="inotes">
-          <input type="text" name="notes" id="notes" />
+          <!-- <input type="text" name="notes" id="notes" /> -->
+          <textarea name="Notes" id="notes"></textarea>
       </div>
     </div>
     <div class="button">
       <div class="pname">
-          <button><h2>Cancel</h2></button>
+          <button onclick="redirect()"><h2>Cancel</h2></button>
       </div>
       <div class="srbutton">
           <button type="button" onclick="printFormData()"><h2>Submit</h2></button>

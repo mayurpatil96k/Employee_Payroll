@@ -10,7 +10,7 @@ function printFormData() {
       break;
     }
   }
-  var ProfileImage = document.getElementsByName("gender");
+  var ProfileImage = document.getElementsByName("pimage");
   var profile;
   for (var i = 0; i < ProfileImage.length; i++) {
     if (ProfileImage[i].checked) {
@@ -47,4 +47,14 @@ function printFormData() {
 };
 
 console.log(formData);
+console.log(profile)
+var formDataString = JSON.stringify(formData);
+localStorage.setItem(FormData,formDataString);
 }
+
+
+
+function redirect(){
+    window.location.href = './table.html';
+}
+
