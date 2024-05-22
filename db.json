@@ -1,70 +1,33 @@
 {
   "users": [
     {
-      "id": "6784",
-      "name": "Mayur",
+      "id": "61fa",
+      "name": "niraj",
       "gender": "Male",
-      "profileImage": "../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg",
-      "salary": "80000",
-      "startDate": {
-        "day": "18",
-        "month": "06",
-        "year": "2022"
-      },
-      "notes": "test...",
-      "departments": [
-        "HR",
-        "Sales",
-        "Finance"
-      ]
-    },
-    {
-      "id": "f757",
-      "name": "Niraj",
-      "gender": "Female",
       "profileImage": "../assets/WhatsApp Image 2024-05-21 at 3.26.36 PM (1).jpeg",
-      "salary": "60000",
+      "salary": "70000",
       "startDate": {
-        "day": "16",
-        "month": "December",
-        "year": "2021"
+        "day": "11",
+        "month": "April",
+        "year": "2023"
       },
-      "notes": "demo",
+      "notes": "kjav",
       "departments": [
-        "HR",
-        "Sales",
-        "Finance",
         "Engineers"
       ]
     },
     {
-      "id": "bd68",
-      "name": "kdsdf",
-      "gender": "Female",
-      "profileImage": "../assets/WhatsApp Image 2024-05-21 at 3.26.35 PM.jpeg",
-      "salary": "70000",
-      "startDate": {
-        "day": "17",
-        "month": "June",
-        "year": "2022"
-      },
-      "notes": "kaagv",
-      "departments": [
-        "Sales"
-      ]
-    },
-    {
-      "id": "139f",
-      "name": "Vikrant",
+      "id": "99a4",
+      "name": "kaustubh kale",
       "gender": "Male",
-      "profileImage": "../assets/WhatsApp Image 2024-05-17 at 12.31.51 PM.jpeg",
-      "salary": "80000",
+      "profileImage": "../assets/WhatsApp Image 2024-05-21 at 3.26.35 PM.jpeg",
+      "salary": "100000",
       "startDate": {
-        "day": "11",
-        "month": "August",
-        "year": "2022"
+        "day": "02",
+        "month": "January",
+        "year": "2020"
       },
-      "notes": "demop",
+      "notes": "Kk",
       "departments": [
         "Engineers"
       ]
